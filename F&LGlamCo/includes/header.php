@@ -13,69 +13,6 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
-  <!-- Custom Header Styling -->
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    /* === Navbar Theme === */
-    .navbar {
-      background-color: #FFF0F5 !important;
-      border-bottom: 2px solid #F8BBD0;
-    }
-
-    .navbar-brand {
-      color: #C71585 !important;
-      font-weight: bold;
-    }
-
-    .navbar-nav .nav-link {
-      color: #6A1B9A !important;
-      transition: background-color 0.3s ease;
-    }
-
-    .navbar-nav .nav-link:hover {
-      background-color: #F8BBD0;
-      color: #880E4F !important;
-      border-radius: 4px;
-    }
-
-    .navbar-toggler {
-      border-color: #CBF5A0;
-    }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(203,245,160, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
-    /* === Dropdown Menu === */
-    .dropdown-menu {
-      background-color: #FFF0F5;
-      border: 1px solid #F8BBD0;
-    }
-
-    .dropdown-item {
-      color: #6A1B9A;
-    }
-
-    .dropdown-item:hover {
-      background-color: #CBF5A0;
-      color: #4A4A4A;
-    }
-
-    /* === Search Button === */
-    .btn-outline-success {
-      border-color: #CBF5A0;
-      color: #6A1B9A;
-    }
-
-    .btn-outline-success:hover {
-      background-color: #CBF5A0;
-      color: #4A4A4A;
-    }
-  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
@@ -133,5 +70,3 @@
       </div>
     </div>
   </nav>
-</body>
-</html>
